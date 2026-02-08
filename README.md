@@ -12,3 +12,14 @@
 ![Ruta acceso proyecto](assets/img/rutaacceso.png)
 - Iniciamos el entorno de contenerdores por primera vez " ./vendor/bin/sail up -d "
 ![Iniciamos contenedores por primera vez](assets/img/entornocontenedores.png)
+
+- comprobamos con docker ps 
+![comprobamos](assets/img/dockerps.png)
+
+## Ejecutamos migraciones 
+- Ejecutamos migraciones  "./vendor/bin/sail artisan migrate"
+
+![migraciones](assets/img/migraciones.png)
+- Y nos dirigiomos a  http://localhost
+![funciona](assets/img/funciona.png)
+
