@@ -23,3 +23,8 @@
 - Y nos dirigiomos a  http://localhost
 ![funciona](assets/img/funciona.png)
 
+## Comnandos utiles
+Detener los contenedores.         ->	/vendor/bin/sail stop
+Iniciar los contenedores.	      ->    /vendor/bin/sail up -d
+Ejecutar comandos de Composer.    -> 	/vendor/bin/sail composer install
+Ejecutar tests unitarios.	      ->    /vendor/bin/sail test
